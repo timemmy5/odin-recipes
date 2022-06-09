@@ -1,0 +1,46 @@
+*{
+    border:0;
+    margin:0;
+    list-style: none;
+    text-decoration: none;
+    }
+
+    body{
+        font-size:60px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        width:100vw;
+        height:100%;
+    }
+
+    #header{
+        text-align:center;
+        font-style: italic;
+        color: rgb(201, 127, 17);
+    }
+
+    #un-ordered_list{
+        height:300px;
+        width:100vw;
+        display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+        padding-top:10px;
+        padding-left: 0px;
+    }
+
+    .list-styles a{
+         color: rgb(134, 124, 34);
+        border:4px rgb(223, 218, 214) solid;
+        background-color: aliceblue;
+        text-align: center;
+        padding:30px;
+        transition: all 1s;
+    }
+
+    .list-styles a:hover{
+        color: rgb(33, 199, 149);
+        border:4px rgb(114, 20, 192) solid;
+        background-color: rgb(168, 31, 106);
+        border-radius: 10px;
+        font-style: italic;
+    }
